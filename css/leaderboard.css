@@ -1,0 +1,59 @@
+html{
+    background-color: aliceblue;
+}
+
+.leader_table {
+    border-collapse: collapse;
+    min-width: 400px;
+    margin: 25px 0;
+    font-size: 12;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: black;
+    margin-left: 35%;
+}
+
+/* Table heading row */
+.leader_table thead tr {
+    background-color:darkcyan;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: left;
+}
+  
+/* Table headings */
+.leader_table th {
+    padding: 12px 15px;
+}
+
+/* Table data entry */
+.leader_table td{
+    padding: 12px 15px;
+}
+
+/* Table rows */
+.leader_table tbody tr {
+    border-bottom: 1px solid #ffffff;
+}
+
+/* hover on a row */
+.leader_table tbody tr:hover{
+    filter: brightness(80%);
+    background-color:blanchedalmond;
+    
+}
+
+/* every second row has differentiated shade */
+.leader_table tbody tr:nth-of-type(even) {
+    background-color:#f1f1f1;
+}
+
+.leader_table tbody tr:nth-of-type(even):hover{
+    filter: brightness(80%);
+    background-color:lightgoldenrodyellow;
+}
+  
+/* Last row gets it's own border */
+.leader_table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
